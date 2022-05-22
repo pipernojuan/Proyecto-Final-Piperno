@@ -272,7 +272,9 @@ main .social-fixed {
     width: 700px;
     height: 600px;
     margin: 40px;
-    display: inline-block; } }
+    display: inline-block; }
+  main .historiafoto p {
+    font-size: 1.5rem; } }
 
 @media only screen and (max-width: 992px) {
   .elmenu {
@@ -280,18 +282,20 @@ main .social-fixed {
   .bg-light {
     background-color: #ffffff !important; }
   main .carrusel {
-    width: 100%; } }
-
-.caja {
-  width: 400px;
-  height: 300px;
-  margin: 40px;
-  display: inline-block; }
-
-.red {
-  display: inline-flex !important;
-  justify-content: center;
-  flex-wrap: wrap; }
+    width: 100%; }
+  .caja {
+    width: 400px;
+    height: 300px;
+    margin: 40px;
+    display: inline-block; }
+  .red {
+    display: inline-flex !important;
+    justify-content: center;
+    flex-wrap: wrap; }
+  main .historiafoto p {
+    font-size: 1.2rem; }
+  main .gifs .gif {
+    width: 70%; } }
 
 @media only screen and (max-width: 500px) {
   .gallery-conteiner {
@@ -325,9 +329,15 @@ main .social-fixed {
   .botonfinal {
     font-size: 10px; }
   .parrafo {
-    font-size: 10px; } }
+    font-size: 10px; }
+  .formulario {
+    width: 300px !important; }
+  main .historiafoto p {
+    font-size: 1.1rem; }
+  main .boton .social .fa-1x {
+    font-size: 0.5em; } }
 
-@media only screen and (max-width: 281px) {
+@media only screen and (max-width: 314px) {
   .caja {
     width: 250px;
     height: 180px;
@@ -338,7 +348,11 @@ main .social-fixed {
     justify-content: center;
     flex-wrap: wrap; }
   main .carrusel {
-    width: 100%; } }
+    width: 100%; }
+  .formulario {
+    width: 200px; }
+  main .historiafoto p {
+    font-size: 1rem; } }
 
 .switch {
   background: #343D5B;
@@ -520,3 +534,10 @@ footer {
     font-size: 15px;
     text-decoration: none;
     display: block; }
+
+main .gifs .gif {
+  border-radius: 90%;
+  filter: brightness(50%);
+  width: 50%;
+  margin-bottom: 170px;
+  margin-top: 30px; }
