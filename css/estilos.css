@@ -485,6 +485,8 @@ main .social-fixed {
 
 .boton .offcanvas {
   background-color: #034951; }
+  body.dark .boton .offcanvas {
+    background-color: #d77800; }
   .boton .offcanvas .offcanvas-header .offcanvas-title {
     color: #ffffff;
     font-size: 20px; }

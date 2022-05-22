@@ -49,6 +49,9 @@
     }
     .offcanvas{
         background-color: $color1;
+        body.dark &{
+            background-color: $color2;
+        }
         .offcanvas-header{
             .offcanvas-title{
                 color: #ffffff;
