@@ -6,6 +6,11 @@
     }
 }
 @media only screen and (max-width: 1170px){
+    .red{        
+        display: inline-flex!important;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
     .gallery-conteiner{
     grid-template-columns: repeat(2,1fr);
     grid-template-rows: repeat(3,1fr);
@@ -70,11 +75,6 @@
         height: 300px;
         margin: 40px;
         display: inline-block;
-    }
-    .red{        
-        display: inline-flex!important;
-        justify-content: center;
-        flex-wrap: wrap;
     }
     main{
         .historiafoto{
