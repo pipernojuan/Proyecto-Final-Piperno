@@ -172,15 +172,15 @@ main .social-fixed {
             color: rgba(216, 119, 2, 0.856); }
 
 .gallery-conteiner {
-  max-width: 1820px;
   margin: auto;
-  width: 90%;
+  width: 70%;
   display: grid;
+  justify-content: center;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
   grid-gap: 10px; }
   .gallery-conteiner .gallery-img {
-    width: 100%;
+    width: 90%;
     filter: drop-shadow(7px 7px 4px black); }
 
 .especialidad {
@@ -241,13 +241,7 @@ main .social-fixed {
 /* Responsive */
 @media only screen and (max-width: 1850px) {
   .red {
-    flex-direction: row; }
-  .nav-link {
-    font-size: 23px !important; } }
-
-@media only screen and (max-width: 1555px) {
-  .nav-link {
-    font-size: 12px !important; } }
+    flex-direction: row; } }
 
 @media only screen and (max-width: 1170px) {
   .gallery-conteiner {
@@ -277,10 +271,15 @@ main .social-fixed {
     font-size: 1.5rem; } }
 
 @media only screen and (max-width: 992px) {
+  .gallery-conteiner {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    width: 70%;
+    border-radius: 50%; }
   .elmenu {
     justify-content: center; }
   .bg-light {
-    background-color: #ffffff !important; }
+    background-color: #ffffff; }
   main .carrusel {
     width: 100%; }
   .caja {
@@ -301,7 +300,8 @@ main .social-fixed {
   .gallery-conteiner {
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    width: 80%; }
+    width: 50%;
+    border-radius: 50%; }
   .items li {
     font-size: 20px; }
   h3 {
@@ -344,7 +344,7 @@ main .social-fixed {
     margin: 20px;
     object-fit: cover; }
   .red {
-    display: inline-flex !important;
+    display: inline-flex;
     justify-content: center;
     flex-wrap: wrap; }
   main .carrusel {

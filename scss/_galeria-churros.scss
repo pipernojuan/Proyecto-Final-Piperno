@@ -1,13 +1,13 @@
 .gallery-conteiner {
-    max-width: 1820px;
     margin: auto;
-    width: 90%;
+    width: 70%;
     display: grid;
+    justify-content: center;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
     grid-gap: 10px;
     .gallery-img {
-    width: 100%;
+    width: 90%;
     filter: drop-shadow(7px 7px 4px black);
     }
 }

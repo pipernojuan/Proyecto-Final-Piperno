@@ -4,17 +4,7 @@
     .red{
         flex-direction: row;
     }
-    .nav-link{
-        font-size: 23px!important;
-    }
 }
-
-@media only screen and (max-width: 1555px){
-    .nav-link{
-        font-size: 12px!important;
-    }
-}
-
 @media only screen and (max-width: 1170px){
     .gallery-conteiner{
     grid-template-columns: repeat(2,1fr);
@@ -58,11 +48,17 @@
     }
 }
 @media only screen and (max-width: 992px){
+    .gallery-conteiner{
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(3,1fr);
+        width: 70%;
+        border-radius: 50%;
+        }
     .elmenu{
         justify-content: center;
     }
     .bg-light{
-        background-color: #ffffff!important;
+        background-color: #ffffff;
     }
     main{
         .carrusel{
@@ -99,7 +95,8 @@
     .gallery-conteiner{
     grid-template-columns: repeat(1,1fr);
     grid-template-rows: repeat(3,1fr);
-    width: 80%;
+    width: 50%;
+    border-radius: 50%;
     }
     .items li{
         font-size: 20px;
@@ -167,7 +164,7 @@
         object-fit: cover;
     }
     .red{        
-        display: inline-flex!important;
+        display: inline-flex;
         justify-content: center;
         flex-wrap: wrap;
     }
